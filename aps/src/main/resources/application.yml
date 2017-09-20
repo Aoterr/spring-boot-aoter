@@ -1,0 +1,11 @@
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.coreplus.aps.bean
+spring:
+  profiles:
+    active: dev
+server:
+  port: 8081
+
+
